@@ -1,0 +1,103 @@
+html,body{
+    max-width: 100%;
+min-height: 100vh;
+  position: relative;
+  margin: 0;
+    overflow-x: hidden;
+}
+
+
+#banner-image{
+    background: url(../images/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+
+#banner-content
+{
+    max-width: 660px;
+    position: inherit;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin: 0 auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.row{
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+.caption{
+    text-align: center;
+}
+
+footer{
+    padding: 10px 0px;
+    background-color: #101010;
+    color:#9d9d9d;
+    position: absolute;
+/*    height: 50px;*/
+    bottom: 0;
+    width: 100%;
+
+}
+    
+a:hover{
+    color: white;
+}
+i{
+   color: #9d9d9d; 
+}
+
+.text-warning{
+    font-style: italic;
+    color: #9d9d9d;
+}
+
+.panel-title{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px; 
+}
+.panel-footer{
+    margin-top: 50px;
+    
+}
+#form_window{
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+#content{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+/*
+
+table{
+    
+    width: 50%;
+    height: 100%;
+    
+}
+*/
+#order{
+/*    margin-top: 150px;*/
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+/*    height: 100%;*/
+}
+
+
