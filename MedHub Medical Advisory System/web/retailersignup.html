@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Retailer Signup Page</title>
+                
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+        
+        
+    
+
+	<body>		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">MedHub</a></h1>
+					<span>Ultimate spot for cost effective medicines</span>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index_1.html">Homepage</a></li>
+						<li><a href="Search.html">Search Substitute</a></li>
+                                                <li><a href="ContactUs.html">Contact Us</a></li>
+						<li><a href="UploadData.html">Upload Data</a></li>
+						<li class="active"><a href="Login.jsp.html">Login</a></li>
+							</ul>
+				</nav>
+			</div>
+                    
+            
+
+<br>
+<br>
+
+<p>&nbsp;&nbsp; </p>
+<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  if (theForm.T1.value == "")
+  {
+    alert("Please enter a value for the \"T1\" field.");
+    theForm.T1.focus();
+    return (false);
+  }
+
+  if (theForm.T1.value.length < 4)
+  {
+    alert("Please enter at least 4 characters in the \"T1\" field.");
+    theForm.T1.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script><!--webbot BOT="GeneratedScript" endspan -->    <h4 align="center"> <font color="#FFFFFF"><u>
+
+    
+	
+        <form method="post" action="signup_complete.jsp">
+    <div class="form-group">
+      	<font size="7" face="Charlesworth">SIGN UP !</font><font size="7" face="Eras Light ITC">
+	</font></u></font> </h4>
+
+	<!--webbot bot="SaveResults" U-File="fpweb:///_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
+	<p align="center">&nbsp;</p>
+	<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<font color="#FFFFFF" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retailer Name:<input type="text" name="T1" aria-describedby="name-format"   pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" size="20" required>
+        <span id="name-format" class="help"> (Format:firstname lastname) </span>
+	</font></p>
+	<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<font color="#FFFFFF" size="4">Store Name:<input type="text" name="T2" size="20" required></font></p>
+        <p align="center"><font color="#FFFFFF" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Store Address:<textarea cols="30" rows="3" name="t2" size="30" required></textarea></font></p>
+	<p align="center"><font color="#FFFFFF" size="4">&nbsp;&nbsp; ShopId:<input type="text" pattern="[A-Za-z-0-9]+" name="T3" size="20"></font></p>
+	<p align="center"><font color="#FFFFFF" size="4">Email id:<input type="text" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" name="T4" size="20"></font></p>
+	<p align="center"><font color="#FFFFFF" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Security Question:</font><select size="1" name="D1">
+	<option>What is your pet name?</option>
+	<option>Who was your 1st class teacher?</option>
+	<option>What is your grandpa name?</option>
+	<option>Who is your enemy?</option>
+	</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</p>
+        <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	<font color="#FFFFFF" size="4">Security Answer:<input type="text" name="T5" size="20" required></font></p>
+       <p align="center"><font color="#FFFFFF" size="4">&nbsp;Password:<input id="password" name="T7" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.T8.pattern = this.value;"  required></font></font></p>
+	<p align="center"><font color="#FFFFFF" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	Confirm Password:</font><input id="password_two" name="T8" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same  Password as above' : '')</p>
+	<p align="center">&nbsp;&nbsp;&nbsp;&nbsp; </p>
+	<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<button name="B1">Create Account</button></p>
+</form>
+
+
+
+
+                                </section>
+                                        </div>
+                                        </div>
+                            </div>
+                    </div>
+</body>
+</html>
